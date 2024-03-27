@@ -1,0 +1,259 @@
+.container {
+
+        background-color:black;      
+
+}
+
+
+.login_page {
+        margin: 0 auto; /* Center the container horizontally */
+        width: 1400px; /* Adjust the width as needed */
+        margin-top: 70px;
+        background-color: white;
+        display:flex; 
+        justify-content: center; /* Center the content horizontally */
+        height:620px;
+        z-index:1;
+        background-color:cadetblue; 
+        position: relative;
+        
+    }
+
+.image1{
+        margin-top:80px;
+        width:380px;
+        height:450px;
+        position:absolute;
+        border-top-left-radius: 12px;
+        border-bottom-left-radius: 12px;        
+}
+
+#image1{
+         max-width: 100%;
+         height:450px;
+         position:absolute;
+         border-top-left-radius: 12px;
+         border-bottom-left-radius: 15px;
+         image-rendering: pixelated;
+         object-fit: content;
+         box-shadow: -4px 2px 0px rgba(0,0,0,.3);
+         
+         
+
+}
+
+
+.divs2{
+        width:60%;
+        height:450px;
+        text-align:center;
+        background-color:white;
+        margin-left:300px;
+        margin-top:80px;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+        margin-right: 20px;
+        border-left: none;
+        box-shadow: 2px 4px 4px rgba(0,0,0,.3);
+        
+
+        
+
+}
+
+#h4{
+
+        text-align: left;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        color: #333;
+        display: inline-block;
+        transition: transform 0.3s ease;
+        margin-left:-70px;
+        margin-top:-20px;
+        margin-bottom: 30px;
+       
+ 
+        
+}
+
+
+
+#heading {
+    text-align:left;
+    margin-left:85px;
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    padding-top: 5px;
+    font-weight:bolder;
+    font-size: 24px;
+    margin-bottom: -32px;
+    
+      
+}
+
+
+#username1 {
+        display: grid;
+        grid-template-rows: auto auto; /* Define two rows, one for label and one for input */
+        row-gap: 3px; /* Add vertical spacing between rows */
+        margin-bottom: 5px; /* Add some bottom margin for spacing */
+    }
+    
+    #username1 label {
+        font-size: 14px; /* Set font size for label */
+        color: #333; /* Set text color */
+        text-align: left;
+        margin-left:90px;
+        font-weight:lighter;
+    }
+    
+    #username1 input[type="text"] {
+        /* Resetting default browser styles */
+        appearance: none;
+        background-color: #f9f9f9; /* Light gray background */
+        border: 1px solid #ccc; /* Light gray border */
+        border-radius: 7px;
+        width:225px;
+        padding: 4px; /* Add padding */
+        font-family: Arial, sans-serif;
+        font-size: 12px;
+        color: #555; /* Darker text color */
+        outline: none;
+        margin-left:90px;
+        box-shadow: 0 0 1px black ;
+        margin-bottom :3px;;
+    }
+    
+    /* Optional: Hover and focus styles */
+    #username1 input[type="text"]:hover,
+    #username1 input[type="text"]:focus {
+        border-color: #66afe9; /* Change border color on hover/focus */
+        box-shadow: 0 0 5px rgba(102, 175, 233, 0.5); /* Add box shadow on hover/focus */
+    }
+
+    #password1 {
+        display: grid;
+        grid-template-rows: auto auto; /* Define two rows, one for label and one for input */
+        row-gap: 3px; /* Add vertical spacing between rows */
+    }
+    
+    #password1 label {
+        font-size: 14px; /* Set font size for label */
+        color: #333; /* Set text color */
+        text-align: left;
+        margin-left:90px;
+        font-weight:lighter;
+    }
+
+
+    
+    
+    #password1 input[type="password"] {
+        /* Resetting default browser styles */
+        appearance: none;
+        background-color: #f9f9f9; /* Light gray background */
+        border: 1px solid #ccc; /* Light gray border */
+        border-radius: 7px;
+        padding: 4px; /* Add padding */
+        font-family: Arial, sans-serif;
+        font-size: 12px;
+        color: #555; /* Darker text color */
+        outline: none;
+        margin-left:90px;
+        width:225px;
+        box-shadow: 0 0 1px black ;
+    }
+    
+    /* Optional: Hover and focus styles */
+    #password1 input[type="password"]:hover,
+    #password1 input[type="password"]:focus {
+        border-color: #66afe9; /* Change border color on hover/focus */
+        box-shadow: 0 0 5px rgba(102, 175, 233, 0.5); /* Add box shadow on hover/focus */
+    }
+
+    #sign_up{
+        text-align:left;
+        margin-left:90px;
+        margin-top:3px;
+        font-size: small;
+        color: #333;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        font-size:14px;
+}
+
+/*#sign_up:hover {
+        transform:scale(1.05);
+    }
+*/
+
+    
+    #forgotpassword{
+        text-align:right;
+        font-size: 14px;
+        font-weight:lighter;
+        margin-right:65px;
+        
+    }  
+
+    
+button[type="button"] {
+        background-color:black; 
+        color: #fff;
+        border: none; 
+        border-radius: 7px; 
+        padding: 4px;
+        font-family: Arial, sans-serif; 
+        font-size: 14px; 
+        cursor: pointer; 
+        transition: background-color 0.3s ease;
+        margin-bottom: -20px; 
+        margin-top: 5px;
+        width:225px;
+        box-shadow: 0 0 1px black ;
+        
+    }
+
+    
+    button[type="button"]:hover {
+        background-color: #0056b3;
+    }
+
+    #button2{
+        margin-left: 30px;
+    }
+    
+    #password1{
+        margin-top: 10px;
+    }
+    
+    #confirmPassword{
+        margin-bottom:10px;
+
+    }
+
+    #checkboxes{
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        margin-left:-30px;
+        margin-bottom:30px;
+    }
+
+
+/*.eye-icon{
+       position:relative;
+       margin-left: 230px;
+       margin-top: -37px;
+       
+    }
+
+#confirmPassword .eye-icon{
+        position:absolute;
+        top:50%;
+        right:10px;
+        background:none;
+        border:none;
+        cursor:pointer;
+        transform:translateY(-50%);
+        
+        
+}*/
